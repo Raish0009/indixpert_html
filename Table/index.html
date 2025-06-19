@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Table </title>
+</head>
+<body>
+
+  <h1>🌟 HTML Table Practice</h1>
+  <hr>
+
+  <!-- 1. Student Marks Report with Summary -->
+  <h2>1. Student Marks Report</h2>
+  <table border="1" cellpadding="8">
+    <thead>
+      <tr>
+        <th rowspan="2">Roll No</th>
+        <th rowspan="2">Name</th>
+        <th colspan="3">Subjects</th>
+        <th rowspan="2">Total</th>
+      </tr>
+      <tr>
+        <th>Math</th>
+        <th>Science</th>
+        <th>English</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>01</td>
+        <td>Aarav</td>
+        <td>85</td>
+        <td>90</td>
+        <td>80</td>
+        <td>255</td>
+      </tr>
+      <tr>
+        <td>02</td>
+        <td>Sana</td>
+        <td>78</td>
+        <td>88</td>
+        <td>92</td>
+        <td>258</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="5"><strong>Average Total</strong></td>
+        <td><strong>256.5</strong></td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <hr>
+
+  <!-- 2. Employee Salary Sheet -->
+  <h2>2. Employee Salary Sheet</h2>
+  <table border="1" cellpadding="8">
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Department</th>
+      <th>Salary</th>
+      <th>Status</th>
+    </tr>
+    <tr>
+      <td>1001</td>
+      <td>Rohit</td>
+      <td rowspan="2">IT</td>
+      <td>₹50,000</td>
+      <td>Active</td>
+    </tr>
+    <tr>
+      <td>1002</td>
+      <td>Priya</td>
+      <td>₹45,000</td>
+      <td>Active</td>
+    </tr>
+  </table>
+
+  <hr>
+
+  <!-- 3. Library Book Record with Genre Grouping -->
+  <h2>3. Library Book Record</h2>
+  <table border="1" cellpadding="8">
+    <tr>
+      <th>Book ID</th>
+      <th>Title</th>
+      <th>Author</th>
+      <th>Genre</th>
+      <th>Availability</th>
+    </tr>
+    <tr>
+      <td>BK101</td>
+      <td>The Alchemist</td>
+      <td>Paulo Coelho</td>
+      <td rowspan="2">Fiction</td>
+      <td>Available</td>
+    </tr>
+    <tr>
+      <td>BK105</td>
+      <td>1984</td>
+      <td>George Orwell</td>
+      <td>Available</td>
+    </tr>
+    <tr>
+      <td>BK102</td>
+      <td>Atomic Habits</td>
+      <td>James Clear</td>
+      <td>Self-help</td>
+      <td>Issued</td>
+    </tr>
+  </table>
+
+  <hr>
+
+  <!-- 4. Restaurant Menu with Images -->
+  <h2>4. Restaurant Menu</h2>
+  <table border="1" cellpadding="8">
+    <tr>
+      <th>Item</th>
+      <th>Image</th>
+      <th>Category</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Paneer Butter Masala</td>
+      <td><img src="https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/paneer-butter-masala-5.jpg" width="100"></td>
+      <td>Main Course</td>
+      <td>₹250</td>
+    </tr>
+    <tr>
+      <td>Veg Biryani</td>
+      <td><img src="https://static.wixstatic.com/media/91e241_0cf76aa5613b4055be2f922f71edeaa0~mv2.jpg/v1/fill/w_560,h_372,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Ustaadi%20Hyderabadi%20Veg%20Biryani.jpg" width="100"></td>
+      <td>Rice</td>
+      <td>₹180</td>
+    </tr>
+    <tr>
+      <td>Gulab Jamun</td>
+      <td><img src="https://selvelglobal.com/cdn/shop/articles/gulab_jammun_recipe.jpg?v=1650975465" width="100"></td>
+      <td>Dessert</td>
+      <td>₹60</td>
+    </tr>
+  </table>
+
+  <hr>
+
+  <!-- 5. Conference Schedule with Break Row -->
+  <h2>5. Conference Schedule</h2>
+  <table border="1" cellpadding="8">
+    <tr>
+      <th>Time</th>
+      <th>Session</th>
+      <th>Speaker</th>
+    </tr>
+    <tr>
+      <td>10:00 - 11:00 AM</td>
+      <td>Introduction to Web</td>
+      <td>Dr. Meena Sharma</td>
+    </tr>
+    <tr>
+      <td>11:15 - 12:15 PM</td>
+      <td>JavaScript Basics</td>
+      <td>Mr. Rohan Das</td>
+    </tr>
+    <tr>
+      <td colspan="3" align="center"><em><strong>Lunch Break</strong></em></td>
+    </tr>
+    <tr>
+      <td>1:00 - 2:00 PM</td>
+      <td>React for Beginners</td>
+      <td>Ms. Neha Verma</td>
+    </tr>
+  </table>
+
+</body>
+</html>

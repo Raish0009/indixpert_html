@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Registration Form</title>
+</head>
+<body>
+
+  <h1>Student Registration Form</h1>
+
+  <form action="#" method="post">
+
+    <!-- Full Name -->
+    <label for="fullname">Full Name:</label><br>
+    <input type="text" id="fullname" name="fullname" required><br><br>
+
+    <!-- Email Address -->
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <!-- Phone Number -->
+    <label for="phone">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone" required><br><br>
+
+    <!-- Gender -->
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label><br>
+
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br>
+
+    <input type="radio" id="other" name="gender" value="Other">
+    <label for="other">Other</label><br><br>
+
+    <!-- Date of Birth -->
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" id="dob" name="dob" required><br><br>
+
+    <!-- Address -->
+    <label for="address">Address:</label><br>
+    <textarea id="address" name="address" rows="4" cols="30" required></textarea><br><br>
+
+    <!-- Courses -->
+    <label>Courses Interested In:</label><br>
+    <input type="checkbox" id="web" name="course" value="Web Development">
+    <label for="web">Web Development</label><br>
+
+    <input type="checkbox" id="data" name="course" value="Data Science">
+    <label for="data">Data Science</label><br>
+
+    <input type="checkbox" id="mobile" name="course" value="Mobile App Development">
+    <label for="mobile">Mobile App Development</label><br>
+
+    <input type="checkbox" id="cyber" name="course" value="Cyber Security">
+    <label for="cyber">Cyber Security</label><br><br>
+
+    <!-- Time Slot -->
+    <label for="slot">Preferred Time Slot:</label><br>
+    <select id="slot" name="slot">
+      <option value="">--Select Time Slot--</option>
+      <option value="morning">Morning</option>
+      <option value="afternoon">Afternoon</option>
+      <option value="evening">Evening</option>
+    </select><br><br>
+
+    <!-- Upload Photo -->
+    <label for="photo">Upload Your Photo:</label><br>
+    <input type="file" id="photo" name="photo"><br><br>
+
+    <!-- Buttons -->
+    <input type="submit" value="Register">
+    <input type="reset" value="Clear">
+
+  </form>
+
+</body>
+</html>

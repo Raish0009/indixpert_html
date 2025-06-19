@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Media Elements Demo</title>
+</head>
+<body>
+
+  <h1>HTML Media Elements</h1>
+
+  <!-- Audio Element -->
+  <h2>Audio Example</h2>
+  <audio controls autoplay loop muted>
+    <source src="example-audio.mp3" type="audio/mpeg">
+    <source src="example-audio.ogg" type="audio/ogg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Video Element -->
+  <h2>Video Example</h2>
+  <video width="480" height="270" controls autoplay loop muted poster="thumbnail.jpg">
+    <source src="example-video.mp4" type="video/mp4">
+    <source src="example-video.webm" type="video/webm">
+    <track src="subtitles.vtt" kind="subtitles" srclang="en" label="English">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- SVG Element -->
+  <h2>SVG Example</h2>
+  <svg width="100" height="100">
+    <circle r="45" cx="50" cy="50" fill="red" stroke="green" stroke-width="2" />
+  </svg>
+
+  <!-- Iframe Element -->
+  <h2>Iframe Example - YouTube</h2>
+  <iframe width="560" height="315" 
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+          frameborder="0" 
+          allowfullscreen>
+  </iframe>
+
+  <h2>Iframe Example - Google Map</h2>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.092157972971!2d144.96305831549884!3d-37.813611979751554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5774f2a6b1c7a56!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1613932883326!5m2!1sen!2sau" 
+    width="600" height="450" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy">
+  </iframe>
+
+</body>
+</html>
