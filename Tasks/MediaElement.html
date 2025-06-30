@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Media Elements and Iframes</title>
+</head>
+<body>
+
+    <table align="center" border="0" cellpadding="10">
+        <tr>
+            <td colspan="2" align="center">
+                <h1>Media Elements and Iframes</h1>
+            </td>
+        </tr>
+
+        <!-- Image -->
+        <tr>
+            <td colspan="2" align="center">
+                <h2>Image</h2>
+                <img src="https://images.pexels.com/photos/10179025/pexels-photo-10179025.jpeg" alt="Sample Image" width="300" height="200">
+            </td>
+        </tr>
+
+        <!-- Audio -->
+        <tr>
+            <td colspan="2" align="center">
+                <h2>Audio</h2>
+                <audio controls>
+                    <source src="./Audio/file_example_MP3_2MG.mp3" type="audio/mpeg">
+                    <source src="./Audio/file_example_OOG_2MG.ogg" type="audio/ogg">
+                    Your browser does not support the audio element.
+                </audio>
+            </td>
+        </tr>
+
+        <!-- Video -->
+        <tr>
+            <td colspan="2" align="center">
+                <h2>Video</h2>
+                <video width="320" height="240" controls autoplay>
+                    <source src="./Video/bird.mp4" type="video/mp4">
+                    <source src="./Video/bird.webm" type="video/webm">
+                    Your browser does not support the video tag.
+                </video>
+            </td>
+        </tr>
+
+        <!-- YouTube iframe -->
+        <tr>
+            <td colspan="2" align="center">
+                <h2>YouTube Video</h2>
+                <iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/jmlO6WPq8JI?start=80"
+                    title="Indixpert"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </td>
+        </tr>
+
+        <!-- Google Map iframe -->
+        <tr>
+            <td colspan="2" align="center">
+                <h2>Map of My City</h2>
+                <iframe 
+                    src="https://www.google.com/maps/embed/v1/place?q=jodhpur&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                    width="600" height="450"
+                    allowfullscreen=""
+                    loading="lazy">
+                </iframe>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
